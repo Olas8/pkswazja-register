@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tkd_grade_array">
+        <item>brak stopnia</item>
+        <item>10 kup</item>
+        <item>9 kup</item>
+        <item>8 kup</item>
+        <item>7 kup</item>
+        <item>6 kup</item>
+        <item>5 kup</item>
+        <item>4 kup</item>
+        <item>3 kup</item>
+        <item>2 kup</item>
+        <item>1 kup</item>
+        <item>I dan</item>
+        <item>II dan</item>
+        <item>III dan</item>
+        <item>IV dan</item>
+        <item>V dan</item>
+        <item>VI dan</item>
+        <item>VII dan</item>
+        <item>VIII dan</item>
+        <item>IX dan</item>
+    </string-array>
+</resources>

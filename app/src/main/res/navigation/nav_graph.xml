@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/groupsFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dziennikazja.ui.HomeFragment"
+        android:label="@string/home" />
+    <fragment
+        android:id="@+id/trainingsFragment"
+        android:name="com.example.dziennikazja.ui.TrainingsFragment"
+        android:label="@string/attendance" />
+    <fragment
+        android:id="@+id/memberInfoAttendanceFragment"
+        android:name="com.example.dziennikazja.ui.MemberInfoAttendanceFragment"
+        android:label="MemberInfoAttendanceFragment" />
+    <fragment
+        android:id="@+id/examsFragment"
+        android:name="com.example.dziennikazja.ui.ExamsFragment"
+        android:label="@string/exams" />
+    <fragment
+        android:id="@+id/memberInfoDetailsFragment"
+        android:name="com.example.dziennikazja.ui.MemberInfoDetailsFragment"
+        android:label="MemberInfoDetailsFragment" />
+    <fragment
+        android:id="@+id/memberInfoExamFragment"
+        android:name="com.example.dziennikazja.ui.MemberInfoExamsFragment"
+        android:label="MemberInfoExamFragment" />
+    <fragment
+        android:id="@+id/memberInfoPaymentFragment"
+        android:name="com.example.dziennikazja.ui.MemberInfoPaymentsFragment"
+        android:label="MemberInfoPaymentFragment" />
+    <fragment
+        android:id="@+id/membersFragment"
+        android:name="com.example.dziennikazja.ui.MembersFragment"
+        android:label="@string/members">
+        <action
+            android:id="@+id/action_membersFragment_to_memberInfoFragment2"
+            app:destination="@id/memberInfoFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentsFragment"
+        android:name="com.example.dziennikazja.ui.PaymentsFragment"
+        android:label="@string/payments" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.dziennikazja.ui.SettingsFragment"
+        android:label="@string/settings" />
+    <fragment
+        android:id="@+id/attendanceStatsFragment"
+        android:name="com.example.dziennikazja.ui.AttendanceStatsFragment"
+        android:label="@string/attendance_stats" />
+    <fragment
+        android:id="@+id/competitionsFragment"
+        android:name="com.example.dziennikazja.ui.CompetitionsFragment"
+        android:label="@string/competitions"
+        tools:layout="@layout/fragment_competitions" />
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.example.dziennikazja.ui.GroupsFragment"
+        android:label="@string/groups"
+        tools:layout="@layout/fragment_groups" />
+    <activity
+        android:id="@+id/memberInfoFragment2"
+        android:name="com.example.dziennikazja.ui.MemberInfoFragment"
+        android:label="fragment_member_info"
+        tools:layout="@layout/fragment_member_info" />
+    <activity
+        android:id="@+id/newMemberActivity"
+        android:name="com.example.dziennikazja.ui.NewMemberActivity"
+        android:label="NewMemberActivity" />
+</navigation>

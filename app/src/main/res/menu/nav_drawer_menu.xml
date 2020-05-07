@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newMemberActivity"
+        android:icon="@drawable/ic_money"
+        android:menuCategory="secondary"
+        android:title="New member" />
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:menuCategory="secondary"
+        android:title="@string/home"
+        android:enabled="true" />
+    <item
+        android:id="@+id/trainingsFragment"
+        android:icon="@drawable/ic_attendance"
+        android:menuCategory="secondary"
+        android:title="@string/trainings" />
+    <item
+        android:id="@+id/paymentsFragment"
+        android:icon="@drawable/ic_money"
+        android:menuCategory="secondary"
+        android:enabled="false"
+        android:title="@string/payments" />
+    <item
+        android:id="@+id/membersFragment"
+        android:icon="@drawable/ic_members"
+        android:menuCategory="secondary"
+        android:title="@string/members" />
+    <item
+        android:id="@+id/attendanceStatsFragment"
+        android:icon="@drawable/ic_attendance_stats"
+        android:menuCategory="secondary"
+        android:enabled="false"
+        android:title="@string/attendance_stats" />
+    <item
+        android:id="@+id/competitionsFragment"
+        android:icon="@drawable/ic_competitions"
+        android:menuCategory="secondary"
+        android:enabled="false"
+        android:title="@string/competitions" />
+    <item
+        android:id="@+id/examsFragment"
+        android:icon="@drawable/ic_exams"
+        android:menuCategory="secondary"
+        android:enabled="false"
+        android:title="@string/exams" />
+    <item
+        android:id="@+id/groupsFragment"
+        android:icon="@drawable/ic_groups"
+        android:menuCategory="secondary"
+        android:title="@string/groups" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:menuCategory="secondary"
+        android:title="@string/settings" />
+</menu>

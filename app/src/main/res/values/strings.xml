@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dziennik AZJA</string>
+
+    <string name="member_created">Uczestnik został utworzony</string>
+    <string name="group_created">Grupa została utworzona</string>
+
+    <string name="settings">Ustawienia</string>
+    <string name="home">Ekran główny</string>
+    <string name="attendance">Lista obecności</string>
+    <string name="payments">Opłaty</string>
+    <string name="members">Uczestnicy</string>
+    <string name="attendance_stats">Frekwencja</string>
+    <string name="competitions">Zawody</string>
+    <string name="exams">Egzaminy</string>
+    <string name="groups">Grupy</string>
+    <string name="personal_data">Dane</string>
+    <string name="trainings">Treningi</string>
+
+    <string name="save">Zapisz</string>
+    <string name="add">Dodaj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="delete">Usuń</string>
+
+    <string name="first_name">Imię</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="pseudonym">Pseudonim</string>
+    <string name="birth_date">Data urodzenia</string>
+    <string name="group">Grupa</string>
+    <string name="address">Adres</string>
+    <string name="street">Ulica</string>
+    <string name="building_nr">Nr domu</string>
+    <string name="apartment_nr">Nr mieszkania</string>
+    <string name="postal_code">Kod pocztowy</string>
+    <string name="city">Miasto</string>
+    <string name="phone_nr">Nr telefonu</string>
+    <string name="fathers_name">Imię ojca</string>
+    <string name="mothers_name">Imię matki</string>
+    <string name="join_date">Data dołączenia</string>
+    <string name="tkd_grade">Stopień TKD</string>
+
+    <string name="adding_new_member">Dodawanie nowego uczestnika</string>
+    <string name="member_info">Szczegóły o uczestniku</string>
+    <string name="saved_show_pseudonym_key">SHOW_PSEUDONYM</string>
+    <string name="create_member">Utwórz uczestnika</string>
+    <string name="asteriks_required_input">*Wymagane</string>
+    <string name="error_empty_required_input">To pole musi zostać wypełnione!</string>
+    <string name="not_created">Nie utworzono/dodano</string>
+    <string name="day">Dzień</string>
+    <string name="group_name">Nazwa grupy</string>
+    <string name="time_start">Godz. rozp.</string>
+    <string name="time_finish">Godz. zak.</string>
+    <string name="create_group">Utwórz grupę</string>
+    <string name="member">Uczestnik</string>
+    <string name="details">Szczegóły</string>
+</resources>
