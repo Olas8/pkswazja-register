@@ -25,6 +25,15 @@ public class Member extends BaseObservable {
     @ColumnInfo(name = "nazwisko")
     public String lastName;
 
+    @ColumnInfo(name = "pseudonim")
+    public String pseudonym;
+
+    @ColumnInfo(name = "id_grupy", index = true)
+    public int groupId;
+
+    @ColumnInfo(name = "nazwa_grupy")
+    public String groupName;
+
     @ColumnInfo(name = "data_urodzenia")
     public String birthDate;
 
@@ -46,14 +55,7 @@ public class Member extends BaseObservable {
     @ColumnInfo(name = "stopien")
     public String tkdGrade;
 
-    @ColumnInfo(name = "id_grupy", index = true)
-    public int groupId;
 
-    @ColumnInfo(name = "pseudonim")
-    public String pseudonym;
-
-    @ColumnInfo(name = "nazwa_grupy")
-    public String groupName;
 
     public Member(String firstName, String lastName, String pseudonym, String birthDate, String address, String phoneNr, String fathersName, String mothersName, String joinDate, String tkdGrade, String groupName) {
         this.firstName = firstName;
